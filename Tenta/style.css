@@ -1,0 +1,65 @@
+
+@media only screen and (max-width: 599px) {
+    nav{
+        background-color: white;
+        font-size: 200%;
+        border: 2px solid black;
+        text-align: left;
+    }
+    .navbutton{
+        padding-right: 200px;
+        overflow: hidden;
+        text-align: left;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 600px ) {
+    nav{
+    background-color: black;
+    font-size: 200%;
+    }
+    .navbutton
+    {
+       color:white;
+       padding:20px;
+    }
+} 
+
+table{
+    border: 2px solid black;
+    font-size: 150%;
+}
+
+td{
+    border: 1px solid black;
+    padding: 1px;
+}
+
+#back{
+    padding: 90px;
+    background-color: lightblue;
+    width: 600px;
+    height: 250px;
+}
+
+#above{
+    position: relative;
+    padding: 10px;
+    background-color: green;
+    z-index: 999;
+    text-align: left;
+    width: 290px;
+    height: 150px;
+}
+
+#bottom{
+    position:relative;
+    padding: 20px;
+    bottom: 60px;
+    left: 100px;
+    text-align: right;
+    background-color: red;
+    width: 400px;
+    height: 100px;
+}
